@@ -2,22 +2,17 @@ package service.impl;
 
 import model.Product;
 import repository.IProductRepository;
-import repository.impl.ProductRepository;
+import repository.impl.ProductReposirory;
 import service.IProductService;
 
 import java.util.List;
 
 public class ProductService implements IProductService {
-    IProductRepository iProductRepository = new ProductRepository();
+    private IProductRepository iProductRepository = new ProductReposirory();
 
     @Override
-    public List<Product> findAll() {
-        return iProductRepository.findAll();
-    }
-
-    @Override
-    public Product findByName(String name) {
-        return null;
+    public List<Product> showAll() {
+        return iProductRepository.showAll();
     }
 
     @Override
@@ -26,17 +21,12 @@ public class ProductService implements IProductService {
     }
 
     @Override
-    public boolean delete(int id) {
-        return false;
+    public void edit(int id, Product product) {
+        iProductRepository.edit(id, product);
     }
 
     @Override
     public Product findById(int id) {
-        return null;
-    }
-
-    @Override
-    public void edit(Product product) {
-
+        return iProductRepository.findById(id);
     }
 }

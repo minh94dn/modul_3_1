@@ -9,6 +9,12 @@ public class Product {
     public Product() {
     }
 
+    public Product(String name, String brand, double price) {
+        this.name = name;
+        this.brand = brand;
+        this.price = price;
+    }
+
     public Product(int id, String name, String brand, double price) {
         this.id = id;
         this.name = name;
