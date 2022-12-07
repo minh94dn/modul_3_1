@@ -13,9 +13,7 @@
 </head>
 <body>
 <h1>Edit User</h1>
-<c:if test="${mess != null}">
-    <p>${mess}</p>
-</c:if>
+<p style="color: red">${mess}</p>
 <form method="post">
     <p>Name</p>
     <input type="text" name="name" value="${user.getName()}">

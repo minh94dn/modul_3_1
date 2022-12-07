@@ -111,14 +111,21 @@ group by hd.ma_hop_dong;
 
 -- 13.	Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng.
 -- (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).
+-- C1
 select dvdk.ma_dich_vu_di_kem, dvdk.ten_dich_vu_di_kem, sum(hdct.so_luong)
 from hop_dong_chi_tiet as hdct
 join dich_vu_di_kem as dvdk on dvdk.ma_dich_vu_di_kem = hdct.ma_dich_vu_di_kem
 group by hdct.ma_dich_vu_di_kem
-having sum(hdct.so_luong) >=
-all(select max(hdct.so_luong)
+having sum(hdct.so_luong) =(select max(sl) from (select sum(hdct.so_luong) as sl, hdct.ma_dich_vu_di_kem
 from hop_dong_chi_tiet as hdct
-group by hdct.ma_dich_vu_di_kem);
+group by hdct.ma_dich_vu_di_kem ) as tb);
+
+-- C2
+select dvdk.ma_dich_vu_di_kem, dvdk.ten_dich_vu_di_kem, sum(hdct.so_luong) as tong
+from hop_dong_chi_tiet as hdct
+join dich_vu_di_kem as dvdk on dvdk.ma_dich_vu_di_kem = hdct.ma_dich_vu_di_kem
+group by hdct.ma_dich_vu_di_kem
+having tong = (select sum(so_luong) from hop_dong_chi_tiet group by ma_dich_vu_di_kem order by sum(so_luong) desc limit 1);
 
 -- 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần duy nhất.
 -- Thông tin hiển thị bao gồm ma_hop_dong, ten_loai_dich_vu, ten_dich_vu_di_kem, so_lan_su_dung 

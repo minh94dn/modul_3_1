@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Emploee</title>
+    <link rel="stylesheet" href="../../src/bootstrap/css/bootstrap.css">
+    <script src="../../src/bootstrap/js/bootstrap.js"></script>
+    <style>
+        label {
+            margin-top: 10px;
+        }
+
+        input {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div class="container">
+        <div class="row justify-content-around">
+            <form action="#" class="col-md-6 bg-light p-3">
+                <h1 class="text-center text-uppercase h3">Add Customer</h1>
+                <div class="form-group">
+                    <label for="idCard">ID Card</label>
+                    <input type="text" name="idCard"
+                           id="idCard" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name"
+                           id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" name="phoneNumber"
+                           id="phoneNumber" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email"
+                           id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="gender"
+                                   id="male" value="male" class="form-check-input" checked>
+                            <label for="male" class="form-check-label">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="gender"
+                                   id="female" value="female" class="form-check-input">
+                            <label for="female" class="form-check-label">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" name="address"
+                           id="address" class="form-control ">
+                </div>
+                <P class="d-flex justify-content-center"><input type="submit" value="Add New"
+                                                                class="btn-primary btn mt-3"></P>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

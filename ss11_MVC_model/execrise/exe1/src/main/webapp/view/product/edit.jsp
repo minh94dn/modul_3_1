@@ -12,13 +12,13 @@
 </head>
 <body>
 <h1>Edit Product</h1>
-<form action="/product?action=edit" method="post">
+<form method="post">
     <p>Name</p>
-    <input name="name" type="text">
+    <input name="name" value="${product.getName()}" type="text">
     <p>Brand</p>
-    <input name="brand" type="text">
+    <input name="brand" value="${product.getBrand()}" type="text">
     <p>Price</p>
-    <input name="price" type="text">
+    <input name="price" value="${product.getPrice()}" type="text">
     <button type="submit">Save</button>
 </form>
 </body>

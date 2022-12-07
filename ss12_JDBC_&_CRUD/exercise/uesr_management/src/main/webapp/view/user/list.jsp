@@ -33,7 +33,7 @@
     <input type="hidden" name="action" value="search">
     <button class="btn btn-outline-success" type="submit">Search</button>
 </form>
-
+<p style="color: red">${mess}</p>
 <table class="table table-striped">
     <tr>
         <th>ID</th>
@@ -73,7 +73,7 @@
                 <div class="modal-body">
                     <input type="text" hidden id="deleteId" name="id">
                     <span>
-Do you want to delete the person named </span> <span style="color: red" id="deleteName"></span>
+Do you want to delete the person named </span><span style="color: red" id="deleteName"></span>
                     <span> ?</span>
                 </div>
                 <div class="modal-footer">
@@ -85,6 +85,10 @@ Do you want to delete the person named </span> <span style="color: red" id="dele
     </div>
 </div>
 </body>
+
+<a href="/user">
+    <button class="btn btn-primary">Refresh</button>
+</a>
 <script>
     function infoDelete(id, name) {
         document.getElementById("deleteId").value = id;

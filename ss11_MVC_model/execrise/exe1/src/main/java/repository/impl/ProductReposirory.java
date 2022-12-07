@@ -29,20 +29,19 @@ public class ProductReposirory implements IProductRepository {
     public void edit(int id, Product product) {
         for (int i = 0; i < productList.size(); i++) {
             if (id == productList.get(i).getId()) {
-                productList.set(id, product);
+                productList.set(i, product);
             }
         }
     }
 
     @Override
     public Product findById(int id) {
-        Product product = null;
-        for (Product p :
-                productList) {
-            product = p;
-            break;
+        for (int i = 0; i < productList.size(); i++) {
+            if(id == productList.get(i).getId()){
+               return productList.get(i);
+            }
         }
-        return product;
+        return null;
     }
 }
 

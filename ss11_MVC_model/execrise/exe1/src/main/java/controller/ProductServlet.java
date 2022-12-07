@@ -43,10 +43,13 @@ public class ProductServlet extends HttpServlet {
         String name = request.getParameter("name");
         String brand = request.getParameter("brand");
         double price = Double.parseDouble(request.getParameter("price"));
-
-        Product product = new Product(id,name,brand,price);
+        Product product = iProductService.findById(id);
+        product.setName(name);
+        product.setBrand(brand);
+        product.setPrice(price);
         iProductService.edit(id,product);
-        showListProduct(request,response);
+//        request.setAttribute("product",product);
+       showListProduct(request,response);
     }
 
     private void add(HttpServletRequest request, HttpServletResponse response) {
@@ -83,24 +86,12 @@ public class ProductServlet extends HttpServlet {
     private void showFromEdit(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
         Product product = iProductService.findById(id);
-        if(product == null){
-            try {
-                request.getRequestDispatcher("error.jsp").forward(request,response);
-            }catch (ServletException | IOException e){
-                e.printStackTrace();
-            }
-        }else {
-            request.setAttribute("product",product);
-        }
+        request.setAttribute("product",product);
         try {
-            try {
-                request.getRequestDispatcher("view/product/edit.jsp").forward(request,response);
-            } catch (ServletException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        } catch (Exception e) {
+            request.getRequestDispatcher("view/product/edit.jsp").forward(request,response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

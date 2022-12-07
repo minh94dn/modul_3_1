@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4747a5c-26b3-4656-ba75-4ea7c48067ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/src/main/java/config/FilterUTF8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.69/apache-tomcat-9.0.69/webapps/ROOT/WEB-INF/classes/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.69/apache-tomcat-9.0.69/webapps/ROOT/WEB-INF/classes/computerApplicationServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.69/apache-tomcat-9.0.69/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.69/apache-tomcat-9.0.69/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.69/apache-tomcat-9.0.69/webapps/ROOT/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study_boostrap/.idea/case_study_boostrap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study_boostrap/Customer/addCustomer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study_boostrap/Customer/customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study_boostrap/employee/addEmployee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study_boostrap/employee/employee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study_boostrap/furama/furama.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study_boostrap/furama/furama.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/build/classes/java/main/controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/build/classes/java/main/controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/build/classes/java/main/repository/impl/ProductReposirory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/build/classes/java/main/repository/impl/ProductReposirory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/build/libs/exe2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/build/libs/exe2-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/src/main/java/repository/impl/ProductReposirory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/src/main/java/repository/impl/ProductReposirory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/src/main/webapp/view/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_MVC_model/execrise/exe1/src/main/webapp/view/product/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/build/libs/uesr_management-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/build/libs/uesr_management-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/src/main/webapp/view/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/src/main/webapp/view/user/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/src/main/webapp/view/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_&amp;_CRUD/exercise/uesr_management/src/main/webapp/view/user/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2IH2NSGbJg56AqkuWqwToc9eczS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\C0822G1---CaoDucKimMinh\module_3\case_study_boostrap\employee" />
+      <recent name="D:\CodeGym\C0822G1---CaoDucKimMinh\module_3\case_study_boostrap\furama" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4747a5c-26b3-4656-ba75-4ea7c48067ba" name="Default Changelist" comment="" />
+      <created>1669824147584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669824147584</updated>
+      <workItem from="1669824148870" duration="899000" />
+      <workItem from="1670212237886" duration="211000" />
+      <workItem from="1670212463637" duration="62000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1670212512591">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1670212512591" />
+    <state x="209" y="23" key="new project wizard" timestamp="1670212525569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1670212525569" />
+  </component>
+</project>
