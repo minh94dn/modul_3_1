@@ -59,7 +59,7 @@
                 <input type="text" class="form-control" name="address">
             </div>
 
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button o type="submit" class="btn btn-primary">Save</button>
         </form>
     </div>
     <div class="col-md-3"></div>

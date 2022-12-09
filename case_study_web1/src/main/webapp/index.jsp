@@ -15,38 +15,6 @@
 <body>
 <div class="container-fluid">
     <%@include file="/include/header.jsp"%>
-    <div class="row bg-success sticky-top container-fluid g-0">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6 d-flex justify-content-center">
-            <nav class="navbar navbar-expand-lg navbar-light bg-success sticky-top">
-                <div class="container">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item navbar-brand">
-                                <a class="nav-link active text-light" aria-current="page" href="/Home"><i
-                                        class="fa-sharp fa-solid fa-house"></i> Home</a>
-                            </li>
-                            <li class="nav-item navbar-brand">
-                                <a class="nav-link active text-light" aria-current="page"
-                                   href="/customer">Customer</a>
-                            </li>
-                            <li class="nav-item navbar-brand">
-                                <a class="nav-link active text-light" aria-current="page"
-                                   href="#">Employee</a>
-                            </li>
-                            <li class="nav-item navbar-brand">
-                                <a class="nav-link active text-light" aria-current="page" href="/ServiceFurama">Service</a>
-                            </li>
-                            <li class="nav-item navbar-brand">
-                                <a class="nav-link active text-light" aria-current="page" href="#">Contract</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="col-lg-3"></div>
-    </div>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner abc">
             <div class="carousel-item active">
